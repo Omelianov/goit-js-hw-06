@@ -24,8 +24,8 @@ listImg.insertAdjacentHTML('beforeend', markup)
 
 const pictures = document.querySelectorAll('.picture')
 
+listImg.style.listStyle = 'none'
 listImg.style.display = 'flex';
 listImg.style.flexWrap = 'wrap'
-listImg.style.listStyle = 'none'
-listImg.style.gap = '30px'
 listImg.style.justifyContent = 'center'
+listImg.style.gap = '30px'
