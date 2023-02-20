@@ -7,8 +7,6 @@ const ingredients = [
   'Condiments',
 ];
 
-console.log(ingredients);
-
 
 
 const categoriesList = document.querySelector('#ingredients');
