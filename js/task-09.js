@@ -4,13 +4,15 @@ function getRandomHexColor() {
 
 const addClass = document.body.classList.add('main');
 const bgBodyClass = document.querySelector('.main')
-const SpanColor = document.querySelector('.color')
+const spanColor = document.querySelector('.color')
 const btnColor = document.querySelector('.change-color')
 
 
+
 btnColor.addEventListener('click', () => {
-  bgBodyClass.style.backgroundColor = `${getRandomHexColor()}`
-  SpanColor.textContent = getRandomHexColor()
+  const randomColor = getRandomHexColor();
+  bgBodyClass.style.backgroundColor = randomColor
+  spanColor.textContent = randomColor
 })
 
 
